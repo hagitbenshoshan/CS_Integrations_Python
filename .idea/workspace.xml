@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dae1012-92d7-45f1-bd88-3d002f63058b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Bronto/Bronto_Inbound.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bronto/bronto_campaigns_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bronto/bronto_outbound_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bronto/bronto_outbound_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BrandWatch/BW mentions count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdsvcs/CRM_user_calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bronto/Bronto_Outbound.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bronto/Bronto_Outbound.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,56 +16,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bronto_Outbound.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Outbound.py">
+      <file leaf-file-name="CRM_user_calc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cdsvcs/CRM_user_calc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+            <state relative-caret-position="357">
+              <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
               <folding>
-                <element signature="e#69#80#0" expanded="true" />
+                <element signature="e#40#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bronto_outbound_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound_model.py">
+      <file leaf-file-name="Get_Operations_Tags.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="932">
-              <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
-                <element signature="e#69#80#0" expanded="true" />
+                <element signature="e#37#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bronto_outbound_range.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound_range.py">
+      <file leaf-file-name="BW mentions count.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BrandWatch/BW mentions count.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bronto_campaigns_model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bronto/bronto_campaigns_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bronto_Inbound.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Inbound.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="185" column="42" lean-forward="true" selection-start-line="185" selection-start-column="42" selection-end-line="185" selection-end-column="42" />
-              <folding>
-                <element signature="e#69#80#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -92,6 +69,9 @@
         <option value="$PROJECT_DIR$/Bronto/bronto_outbound_model.py" />
         <option value="$PROJECT_DIR$/Bronto/bronto_outbound_range.py" />
         <option value="$PROJECT_DIR$/Bronto/bronto_campaigns_model.py" />
+        <option value="$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py" />
+        <option value="$PROJECT_DIR$/cdsvcs/CRM_user_calc.py" />
+        <option value="$PROJECT_DIR$/BrandWatch/BW mentions count.py" />
       </list>
     </option>
   </component>
@@ -117,7 +97,17 @@
             <path>
               <item name="CS_Integrations_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS_Integrations_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="BrandWatch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS_Integrations_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS_Integrations_Python" type="462c0819:PsiDirectoryNode" />
               <item name="Bronto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS_Integrations_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS_Integrations_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="cdsvcs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,10 +186,23 @@
     <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Outbound.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/bronto_campaigns_model.py">
+    <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Outbound.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="2006">
+          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+          <folding>
+            <element signature="e#69#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+          <folding>
+            <element signature="e#69#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -207,6 +210,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bronto/bronto_campaigns_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -220,22 +230,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound_model.py">
+    <entry file="file://$PROJECT_DIR$/cdsvcs/CRM_user_calc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        <state relative-caret-position="357">
+          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
-            <element signature="e#69#80#0" expanded="true" />
+            <element signature="e#40#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Outbound.py">
+    <entry file="file://$PROJECT_DIR$/BrandWatch/BW mentions count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+        <state relative-caret-position="68">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <element signature="e#69#80#0" expanded="true" />
+            <element signature="e#37#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
