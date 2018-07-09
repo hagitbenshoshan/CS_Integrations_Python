@@ -1,4 +1,4 @@
-#This code brings outbound data from Bronto’s WSDL API to Cooladata
+# Use Bronto’s WSDL api to import outbound range into Cooladata
 
 import suds
 from suds.client import Client
@@ -41,7 +41,7 @@ d = datetime(
     day=today.day,
 )
 
-#creating the dataframe to be imported to Cooladata
+# Create the dataframe to be imported into Cooladata
 mdf = pd.DataFrame(
     columns=['flag', 'createdDate', 'tz1', 'contactId', 'listId', 'messageId', 'deliveryId', 'activityType',
              'emailAddress', 'contactStatus', 'messageName', 'deliveryType', 'deliveryStart', 'tz2', 'listName',
@@ -59,12 +59,10 @@ todayts = datetime.utcnow().date()
 begining_of_yesterday = str(todayts) + ' 00:00:00.000000'
 midnight = datetime.combine(date.today(), time.min)
 yesterday_midnight = midnight - timedelta(days=1)
-beginning_of_period_midnight = midnight - timedelta(days=1)
+beginning_of_period_midnight = midnight - timedelta(days=10)
 until_dt = todayts - timedelta(days=0)
 
 for single_date in daterange(beginning_of_period_midnight, midnight):
-    # print single_date.strftime("%Y-%m-%d")
-    #    manipulate_data(single_date)
     print(single_date)
     df = pd.DataFrame(
         columns=['flag', 'createdDate', 'tz1', 'contactId', 'listId', 'messageId', 'deliveryId', 'activityType',
@@ -76,28 +74,37 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
     bApi.set_options(soapheaders=session_header)
     readDirection = bApi.factory.create('readDirection')
     filter = bApi.factory.create('recentOutboundActivitySearchRequest')
+
     # Read data starting from 1 days ago up to now
     filter.start = single_date
-    print filter.start
+    print
+    filter.start
     filter.size = 5000
     readDirection = "FIRST"
     filter.readDirection = readDirection
+
     # Only return data for opens and clicks
     filter.types = ['send']
     filter.end = datetime.combine(date.today(), time.min)
+
     # Initialize our countersprint filter
     dt = filter.start
-    print "dt is :"
-    print dt
-    print filter
+    print
+    "dt is :"
+    print
+    dt
+    print
+    filter
 
     i = 1
     # Only get 50000 pages worth of data
     while i <= 10:
         filter.start = single_date
-        print filter.start
+        print
+        filter.start
         if i == 1:
-            print "Reading data for page 1 \n"
+            print
+            "Reading data for page 1 \n"
             try:
                 readDirection = "FIRST"
                 read_activity = bApi.service.readRecentOutboundActivities(filter)
@@ -108,7 +115,8 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
                 continue
         else:
 
-            print "Reading data for page " + str(i) + "\n"
+            print
+            "Reading data for page " + str(i) + "\n"
             try:
                 readDirection = "NEXT"
                 filter.readDirection = readDirection
@@ -118,10 +126,7 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
                 print e
                 print "No data on page " + str(i)
                 i = i + 1
-                continue  # sys.exit()
-
-        # df= pd.DataFrame(columns=['createdDate','contactId','listId','messageId','deliveryId','activityType','emailAddress','contactStatus','messageName','deliveryType','deliveryStart','listName','listLabel'])
-        # print read_activity
+                continue
 
         for Accounts in read_activity:
             v_createdDate = ''
@@ -145,7 +150,6 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
 
                 if hasattr(Accounts, 'createdDate'):
                     v_createdDate = str(Accounts.createdDate)[:19]
-                    # v_tz1=str(Accounts.createdDate)[19:]
                     if (str(Accounts.createdDate)[:10] < str(until_dt)[:10]):
                         v_flag = 'good'
 
@@ -178,7 +182,6 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
 
                 if hasattr(Accounts, 'deliveryStart'):
                     v_deliveryStart = str(Accounts.deliveryStart)[:19]
-                    # v_tz2=str(Accounts.deliveryStart)[19:]
 
                 if hasattr(Accounts, 'listName'):
                     v_listName = Accounts.listName.encode('utf-8').strip()
@@ -213,3 +216,4 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
 
 print(mdf.shape)
 coolaResult = mdf
+
