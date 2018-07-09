@@ -114,9 +114,12 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
                 filter.readDirection = readDirection
                 read_activity = bApi.service.readRecentOutboundActivities(filter)
             except WebFault, e:
-                print '\nERROR MESSAGE:'
-                print e
-                print "No data on page " + str(i)
+                print
+                '\nERROR MESSAGE:'
+                print
+                e
+                print
+                "No data on page " + str(i)
                 # out_file.close()
                 # sys.exit()
                 i = i + 1
