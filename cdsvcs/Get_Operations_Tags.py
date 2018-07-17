@@ -27,7 +27,7 @@ for i in range(1,history_loop):
     #print begining_of_yesterday
     xdt = str(yesterday_ts)
 	#print url
-    url = "http://cdsvcs.wpnetwork.eu/PkrServices.asmx/GetOperationsTags?date="+ xdt
+    url = "http://aaa.bbb.us/GetService.asmx/GetData?date="+ xdt #Your URL here 
     data = requests.get(url).text
     data = data[9:-17]
     # convert 'str' to Json
