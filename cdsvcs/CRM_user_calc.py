@@ -1,4 +1,4 @@
-# import player data from cdsvcs’s api
+# import player data from internal api
 
 import requests
 from datetime import timedelta
@@ -17,7 +17,7 @@ todayts = datetime.utcnow().date()
 
 # create an empty dataframe to be imported to Cooladata
 df = pd.DataFrame(
-    columns=['username', 'SignUpDate', 'costa_rica_SignUpDate', 'OrigSignUpDatets', 'Skin', 'Email', 'insert_time'])
+    columns=['username', 'SignUpDate', 'TZ_SignUpDate', 'OrigSignUpDatets', 'Skin', 'Email', 'insert_time'])
 
 history_loop = '<Insert time range amount in days(as Integer)>'
 
@@ -29,7 +29,7 @@ for i in range(1, history_loop):
 
     xdt = str(yesterday_ts)
 
-    url = "http://cdsvcs.wpnetwork.eu/PkrServices.asmx/GetPlayers?date=" + xdt
+    url = "http://aaa.bbb.us/Users.asmx/GetUsers?date=" + xdt  # Insert your URL here 
     data = requests.get(url).text
     data = data[9:-17]
     # convert 'str' to Json
@@ -40,11 +40,11 @@ for i in range(1, history_loop):
         v_Skin = dt['Skin']
         v_Email = dt['Email']
         v_insert_time = datetime.utcnow()
-        v_costa_rica_SignUpDate = pd.to_datetime(int(dt['SignUpDate']) - 21600000, unit='ms')
+        v_TZ_SignUpDate = pd.to_datetime(int(dt['SignUpDate']) - 21600000, unit='ms')
         v_OrigSignUpDatets = pd.to_datetime(int(dt['SignUpDate']), unit='ms')
         df = df.append({'username': v_username,
                         'SignUpDate': v_SignUpDate,
-                        'costa_rica_SignUpDate': v_costa_rica_SignUpDate,
+                        'TZ_SignUpDate': v_costa_rica_SignUpDate,
                         'OrigSignUpDatets': v_OrigSignUpDatets,
                         'Skin': v_Skin,
                         'Email': v_Email,
