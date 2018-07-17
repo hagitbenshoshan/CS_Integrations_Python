@@ -16,7 +16,7 @@ d = datetime(
 todayts      = datetime.utcnow().date()
 
 #create an empty dataframe to be imported to Cooladata
-df= pd.DataFrame(columns=['Category','Subject','Mood','DateRegister','InsertedBy','insert_time','costa_rica_DateRegister','OrigDateRegisterts'])
+df= pd.DataFrame(columns=['Category','Subject','Mood','DateRegister','InsertedBy','insert_time','TZ_DateRegister','OrigDateRegisterts'])
 
 history_loop='<Insert time range amount in days(as Integer)>'
 
@@ -39,7 +39,7 @@ for i in range(1,history_loop):
         v_Mood = dt['Mood']
         v_InsertedBy = dt['InsertedBy']
         v_insert_time = datetime.utcnow()
-        v_costa_rica_DateRegister = pd.to_datetime(int(dt['DateRegister'] ) - 21600000, unit='ms')
+        v_TZ_DateRegister = pd.to_datetime(int(dt['DateRegister'] ) - 21600000, unit='ms')
         v_OrigDateRegisterts = pd.to_datetime(int(dt['DateRegister'] )  , unit='ms')
         df = df.append({'Category': v_Category,
                     'DateRegister': v_DateRegister,
@@ -47,7 +47,7 @@ for i in range(1,history_loop):
                     'Mood': v_Mood,
                     'InsertedBy': v_InsertedBy,
                     'DateRegister': v_DateRegister,
-                    'costa_rica_DateRegister': v_costa_rica_DateRegister,
+                    'TZ_DateRegister': v_TZ_DateRegister,
                     'OrigDateRegisterts' :v_OrigDateRegisterts,
                     'insert_time': v_insert_time
                     }, ignore_index=True)
