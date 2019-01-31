@@ -1,4 +1,4 @@
-# This code brings inbound data from Oracle Bronto’s WSDL API to Cooladata
+# This code brings inbound data from OracleBronto’s WSDL API to Cooladata
 
 import suds
 from suds.client import Client
@@ -96,7 +96,7 @@ def df_manipulation_function(read_activity):
     return df
 
 
-# Oracle Bronto API WSDL
+# OracleBronto API WSDL
 BRONTO_WSDL = 'https://api.bronto.com/v4?wsdl'
 
 # start up basic logging

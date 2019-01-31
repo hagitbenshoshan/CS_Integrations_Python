@@ -1,4 +1,4 @@
-# This code brings data from Oracle Bronto’s API to Cooladata
+# This code brings data from OracleBronto’s API to Cooladata
 
 import json
 import requests

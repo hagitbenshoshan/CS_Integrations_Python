@@ -1,4 +1,4 @@
-#This code brings outbound data from Oracle Bronto’s WSDL API to Cooladata
+#Use OracleBronto’s WSDL api to import outbound model data into Cooladata
 
 import suds
 from suds.client import Client
@@ -10,7 +10,8 @@ from datetime import datetime, date, time, timedelta
 import os, sys
 import pandas as pd
 
-# Oracle Bronto API WSDL
+
+# OracleBronto API WSDL
 BRONTO_WSDL = 'https://api.bronto.com/v4?wsdl'
 
 # start up basic logging
@@ -41,7 +42,6 @@ d = datetime(
     day=today.day,
 )
 
-#creating the dataframe to be imported to Cooladata
 mdf = pd.DataFrame(
     columns=['flag', 'createdDate', 'tz1', 'contactId', 'listId', 'messageId', 'deliveryId', 'activityType',
              'emailAddress', 'contactStatus', 'messageName', 'deliveryType', 'deliveryStart', 'tz2', 'listName',
@@ -63,8 +63,6 @@ beginning_of_period_midnight = midnight - timedelta(days=1)
 until_dt = todayts - timedelta(days=0)
 
 for single_date in daterange(beginning_of_period_midnight, midnight):
-    # print single_date.strftime("%Y-%m-%d")
-    #    manipulate_data(single_date)
     print(single_date)
     df = pd.DataFrame(
         columns=['flag', 'createdDate', 'tz1', 'contactId', 'listId', 'messageId', 'deliveryId', 'activityType',
@@ -118,10 +116,8 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
                 print e
                 print "No data on page " + str(i)
                 i = i + 1
-                continue  # sys.exit()
+                continue
 
-        # df= pd.DataFrame(columns=['createdDate','contactId','listId','messageId','deliveryId','activityType','emailAddress','contactStatus','messageName','deliveryType','deliveryStart','listName','listLabel'])
-        # print read_activity
 
         for Accounts in read_activity:
             v_createdDate = ''
@@ -145,7 +141,6 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
 
                 if hasattr(Accounts, 'createdDate'):
                     v_createdDate = str(Accounts.createdDate)[:19]
-                    # v_tz1=str(Accounts.createdDate)[19:]
                     if (str(Accounts.createdDate)[:10] < str(until_dt)[:10]):
                         v_flag = 'good'
 
@@ -178,7 +173,6 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
 
                 if hasattr(Accounts, 'deliveryStart'):
                     v_deliveryStart = str(Accounts.deliveryStart)[:19]
-                    # v_tz2=str(Accounts.deliveryStart)[19:]
 
                 if hasattr(Accounts, 'listName'):
                     v_listName = Accounts.listName.encode('utf-8').strip()
@@ -213,3 +207,4 @@ for single_date in daterange(beginning_of_period_midnight, midnight):
 
 print(mdf.shape)
 coolaResult = mdf
+
