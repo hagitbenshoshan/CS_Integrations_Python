@@ -1,7 +1,6 @@
 # Oracle Bronto integration into Cooladata
 
 #### 1. Bronto Get Campaigns
-filename: bronto_get_campaigns
 [link to bronto api](https://help.bronto.com/bmp/reference/r_api_rest_campaigns_get_campaigns.html)
 
 #### 2. Bronto Inbound

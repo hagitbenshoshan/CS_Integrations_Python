@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dae1012-92d7-45f1-bd88-3d002f63058b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BrandWatch/BW mentions count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cdsvcs/CRM_user_calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py" afterDir="false" />
+    <list default="true" id="6dae1012-92d7-45f1-bd88-3d002f63058b" name="Default" comment="Generic API">
+      <change beforePath="$PROJECT_DIR$/.idea/CS_Integrations_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS_Integrations_Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bronto/Readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Bronto/Readme.MD" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,35 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CRM_user_calc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cdsvcs/CRM_user_calc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-              <folding>
-                <element signature="e#40#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Get_Operations_Tags.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding>
-                <element signature="e#37#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BW mentions count.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BrandWatch/BW mentions count.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bronto/Readme.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -58,6 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>token</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -68,20 +51,25 @@
         <option value="$PROJECT_DIR$/Bronto/Bronto_Outbound.py" />
         <option value="$PROJECT_DIR$/Bronto/bronto_outbound_model.py" />
         <option value="$PROJECT_DIR$/Bronto/bronto_outbound_range.py" />
-        <option value="$PROJECT_DIR$/Bronto/bronto_campaigns_model.py" />
         <option value="$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py" />
-        <option value="$PROJECT_DIR$/cdsvcs/CRM_user_calc.py" />
         <option value="$PROJECT_DIR$/BrandWatch/BW mentions count.py" />
+        <option value="$PROJECT_DIR$/cdsvcs/CRM_user_calc.py" />
+        <option value="$PROJECT_DIR$/cdsvcs/Generic_API_example.py" />
+        <option value="$PROJECT_DIR$/Generic API/Readme.MD" />
+        <option value="$PROJECT_DIR$/Bronto/bronto_campaigns_model.py" />
+        <option value="$PROJECT_DIR$/Generic API/Generic_API_example.py" />
+        <option value="$PROJECT_DIR$/Bronto/Readme.MD" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -107,7 +95,7 @@
             <path>
               <item name="CS_Integrations_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS_Integrations_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="cdsvcs" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic API" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,7 +105,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,65 +130,154 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531128326392</updated>
+      <workItem from="1548854553380" duration="9246000" />
     </task>
+    <task id="LOCAL-00001" summary="Generic API">
+      <created>1548922166015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548922166015</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Generic API">
+      <created>1548931575196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548931575196</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Renaming and tidying up">
+      <created>1548935063784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548935063784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9246000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32965517" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Generic API" />
+    <MESSAGE value="Renaming and tidying up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renaming and tidying up" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Outbound.py">
+    <entry file="file://$PROJECT_DIR$/BrandWatch/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrandWatch/BW mentions count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="e#37#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="242">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic API/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="108">
+            <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bronto/bronto_inbound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="153" column="64" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="64" />
           <folding>
             <element signature="e#69#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Outbound.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Outbound.py">
+    <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+        <state relative-caret-position="-1993">
+          <caret line="77" column="69" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="69" />
           <folding>
             <element signature="e#69#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bronto/bronto_get_campaigns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="e#56#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        <state relative-caret-position="375">
+          <caret line="75" column="69" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="69" />
           <folding>
             <element signature="e#69#80#0" expanded="true" />
           </folding>
@@ -208,52 +286,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound_range.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/bronto_campaigns_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/Bronto_Inbound.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="185" column="42" lean-forward="true" selection-start-line="185" selection-start-column="42" selection-end-line="185" selection-end-column="42" />
+        <state relative-caret-position="1635">
+          <caret line="109" column="73" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="73" />
           <folding>
-            <element signature="e#69#80#0" expanded="true" />
+            <element signature="e#65#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cdsvcs/CRM_user_calc.py">
+    <entry file="file://$PROJECT_DIR$/Generic API/Generic_API_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="e#40#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="65">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrandWatch/BW mentions count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#37#52#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Bronto/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
