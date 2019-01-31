@@ -1,4 +1,4 @@
-#This code brings outbound data from Bronto’s WSDL API to Cooladata
+#This code brings outbound data from Oracle Bronto’s WSDL API to Cooladata
 
 import suds
 from suds.client import Client
@@ -10,7 +10,7 @@ from datetime import datetime, date, time, timedelta
 import os, sys
 import pandas as pd
 
-# Bronto API WSDL
+# Oracle Bronto API WSDL
 BRONTO_WSDL = 'https://api.bronto.com/v4?wsdl'
 
 # start up basic logging
