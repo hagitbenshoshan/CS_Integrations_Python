@@ -14,10 +14,11 @@ grant_type = 'client_credentials'
 AUTHORIZE_URL = "https://auth.bronto.com/oauth2/authorize/"
 ACCESS_TOKEN_URL = "https://auth.bronto.com/oauth2/token/"
 REDIRECT_URI = 'https://auth.bronto.com/oauth2_redirect'
-# 1. Ask for an authorization code
+
+# Ask for an authorization code
 requests.get('{}?response_type=code&client_id={}&redirect_uri={}'.format(AUTHORIZE_URL, CLIENT_ID, REDIRECT_URI))
 
-# 2. The user logs in, accepts your client authentication request
+# The user logs in, accepts your client authentication request
 r = requests.post(
     ACCESS_TOKEN_URL,
     data={
@@ -48,10 +49,18 @@ else:
         response.status_code, response.text, response.headers
     ))
 
-# Get into DF
+# Define result dataframe
 df = pd.DataFrame(
-    columns=['archived', 'campaignTypeId', 'name', 'siteId', 'modifiedDate', 'createdDate', 'id', 'description'])
+    columns=['archived',
+             'campaignTypeId',
+             'name',
+             'siteId',
+             'modifiedDate',
+             'createdDate',
+             'id',
+             'description'])
 
+# load response data into dataframe
 for campaign in campaigns:
     v_archived = ''
     v_campaignTypeId = ''
@@ -80,6 +89,7 @@ for campaign in campaigns:
                     'description': v_description
                     }, ignore_index=True)
 
-# Results must be in table format. Save your result to coolaResult:
+# assign the result to "coolaResult" variable
+# which will be uploaded into CoolaData
 coolaResult = df
 
