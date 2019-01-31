@@ -1,7 +1,7 @@
-# Integration from BrandWatch to Cooladata
+# BrandWatch integration into Cooladata
 
-## Technologies used :  Cooladata , Python
-                     
-### This is a sample code that upload daily mentions data from BrandWatch to Cooladata 
+#### This is a sample code that upload daily mentions data
 
-Code written by Cooladata.com  
+*Technologies used :  Cooladata , Python 2.7*
+
+*Code written by Cooladata.com*
