@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dae1012-92d7-45f1-bd88-3d002f63058b" name="Default" comment="Generic API">
-      <change beforePath="$PROJECT_DIR$/.idea/CS_Integrations_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS_Integrations_Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6dae1012-92d7-45f1-bd88-3d002f63058b" name="Default" comment="MyAffiliates.com">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bronto/Readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Bronto/Readme.MD" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +12,122 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bronto/Readme.MD">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitter/get_followers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Youtube/get_followers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twich/get_followers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WidgetMedia/Readme.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <first_editor relative-caret-position="44">
+                <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WidgetMedia/get_widget_media.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoogleAnalytics/Readme.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="17" selection-start-column="17" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoogleAnalytics/goals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#40#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoogleAnalytics/impressions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="14" selection-end-column="48" />
+              <folding>
+                <element signature="e#40#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Instagram/get_followers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="118" selection-start-line="18" selection-start-column="118" selection-end-line="18" selection-end-column="118" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/get_followers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,13 +157,32 @@
         <option value="$PROJECT_DIR$/Bronto/bronto_outbound_model.py" />
         <option value="$PROJECT_DIR$/Bronto/bronto_outbound_range.py" />
         <option value="$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py" />
-        <option value="$PROJECT_DIR$/BrandWatch/BW mentions count.py" />
         <option value="$PROJECT_DIR$/cdsvcs/CRM_user_calc.py" />
         <option value="$PROJECT_DIR$/cdsvcs/Generic_API_example.py" />
         <option value="$PROJECT_DIR$/Generic API/Readme.MD" />
         <option value="$PROJECT_DIR$/Bronto/bronto_campaigns_model.py" />
         <option value="$PROJECT_DIR$/Generic API/Generic_API_example.py" />
         <option value="$PROJECT_DIR$/Bronto/Readme.MD" />
+        <option value="$PROJECT_DIR$/MyAffiliates/feed_25.py" />
+        <option value="$PROJECT_DIR$/MyAffiliates/feed_1.py" />
+        <option value="$PROJECT_DIR$/MyAffiliates/Readme.MD" />
+        <option value="$PROJECT_DIR$/BrandWatch/Readme.MD" />
+        <option value="$PROJECT_DIR$/BrandWatch/BW mentions count.py" />
+        <option value="$PROJECT_DIR$/Facebook/Readme.MD" />
+        <option value="$PROJECT_DIR$/Facebook/get_followers.py" />
+        <option value="$PROJECT_DIR$/Youtube/Readme.MD" />
+        <option value="$PROJECT_DIR$/Twitter/Readme.MD" />
+        <option value="$PROJECT_DIR$/Instagram/Readme.MD" />
+        <option value="$PROJECT_DIR$/Youtube/get_followers.py" />
+        <option value="$PROJECT_DIR$/Twitter/get_followers.py" />
+        <option value="$PROJECT_DIR$/Instagram/get_followers.py" />
+        <option value="$PROJECT_DIR$/Twich/Readme.MD" />
+        <option value="$PROJECT_DIR$/Twich/get_followers.py" />
+        <option value="$PROJECT_DIR$/WidgetMedia/Readme.MD" />
+        <option value="$PROJECT_DIR$/WidgetMedia/get_widget_media.py" />
+        <option value="$PROJECT_DIR$/GoogleAnalytics/Readme.MD" />
+        <option value="$PROJECT_DIR$/GoogleAnalytics/goals.py" />
+        <option value="$PROJECT_DIR$/GoogleAnalytics/impressions.py" />
       </list>
     </option>
   </component>
@@ -85,17 +209,22 @@
             <path>
               <item name="CS_Integrations_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS_Integrations_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="BrandWatch" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleAnalytics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS_Integrations_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS_Integrations_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Bronto" type="462c0819:PsiDirectoryNode" />
+              <item name="Instagram" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS_Integrations_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS_Integrations_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic API" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS_Integrations_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS_Integrations_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="WidgetMedia" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -107,6 +236,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GoogleAnalytics" />
+      <recent name="$PROJECT_DIR$/WidgetMedia" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Facebook" />
+      <recent name="$PROJECT_DIR$/MyAffiliates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,7 +268,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531128326392</updated>
-      <workItem from="1548854553380" duration="9246000" />
+      <workItem from="1548854553380" duration="15123000" />
     </task>
     <task id="LOCAL-00001" summary="Generic API">
       <created>1548922166015</created>
@@ -153,17 +291,59 @@
       <option name="project" value="LOCAL" />
       <updated>1548935063784</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Renaming and tidying up">
+      <created>1548935102242</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548935102242</updated>
+    </task>
+    <task id="LOCAL-00005" summary="MyAffiliates.com">
+      <created>1548938284404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548938284404</updated>
+    </task>
+    <task id="LOCAL-00006" summary="renaming">
+      <created>1548938397577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548938397577</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Brand watch fix">
+      <created>1548938803838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548938803838</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Social networks">
+      <created>1548942173127</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548942173127</updated>
+    </task>
+    <task id="LOCAL-00009" summary="widget media">
+      <created>1548942430115</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548942430115</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9246000" />
+    <option name="totallyTimeSpent" value="15123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -177,7 +357,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32948583" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32948583" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32965517" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Database" />
@@ -194,26 +374,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generic API" />
     <MESSAGE value="Renaming and tidying up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming and tidying up" />
+    <MESSAGE value="MyAffiliates.com" />
+    <MESSAGE value="renaming" />
+    <MESSAGE value="Brand watch fix" />
+    <MESSAGE value="Social networks" />
+    <MESSAGE value="widget media" />
+    <option name="LAST_COMMIT_MESSAGE" value="widget media" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BrandWatch/Readme.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BrandWatch/BW mentions count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cdsvcs/Get_Operations_Tags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -221,16 +389,6 @@
           <folding>
             <element signature="e#37#52#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -244,7 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/bronto_inbound.py">
+    <entry file="file://$PROJECT_DIR$/OracleBronto/bronto_inbound.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="153" column="64" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="64" />
@@ -254,7 +412,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound.py">
+    <entry file="file://$PROJECT_DIR$/OracleBronto/bronto_outbound.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1993">
           <caret line="77" column="69" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="69" />
@@ -264,7 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/bronto_get_campaigns.py">
+    <entry file="file://$PROJECT_DIR$/OracleBronto/bronto_get_campaigns.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="41" />
@@ -274,7 +432,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound_model.py">
+    <entry file="file://$PROJECT_DIR$/OracleBronto/bronto_outbound_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="75" column="69" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="69" />
@@ -284,7 +442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/bronto_outbound_range.py">
+    <entry file="file://$PROJECT_DIR$/OracleBronto/bronto_outbound_range.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1635">
           <caret line="109" column="73" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="73" />
@@ -301,13 +459,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bronto/Readme.MD">
+    <entry file="file://$PROJECT_DIR$/OracleBronto/Readme.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="90">
             <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAffiliates/feed_25.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#83#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAffiliates/feed_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrandWatch/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="10" selection-start-column="10" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrandWatch/BW mentions count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#72#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyAffiliates/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="9" selection-start-column="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="11" selection-start-column="11" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twich/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="7" selection-start-column="7" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/get_followers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Youtube/get_followers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instagram/get_followers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="118" selection-start-line="18" selection-start-column="118" selection-end-line="18" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/get_followers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twich/get_followers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WidgetMedia/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WidgetMedia/get_widget_media.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleAnalytics/Readme.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="17" selection-start-column="17" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleAnalytics/goals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#40#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleAnalytics/impressions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#40#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
