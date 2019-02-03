@@ -4,11 +4,11 @@ import datetime
 import pandas as pd
 
 #---youtube---#
-channel_id_y='UCUm4P0v0KYKFuGfxNTqKGHw'
-api_key = 'AIzaSyAV0vfK8hXtlCPeFA0skR9vrOYDD5k1SzY'
+channel_id_y='chanell_id'
+api_key = 'api_key'
 
 #---dataframe---#
-df= pd.DataFrame(columns=['InsertTimeRecordUTC','social_platform','followers_count'])
+df= pd.DataFrame(columns=['InsertTimeRecordUTC', 'social_platform', 'followers_count'])
 
 today = datetime.date.today()
 

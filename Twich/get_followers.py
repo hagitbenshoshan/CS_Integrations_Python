@@ -5,6 +5,7 @@ import pandas as pd
 
 #---twitch---#
 channel_id_t = '9999999'
+client_id = 'client_id'
 
 #---dataframe---#
 df= pd.DataFrame(columns=['InsertTimeRecordUTC','social_platform','followers_count'])
@@ -12,7 +13,7 @@ df= pd.DataFrame(columns=['InsertTimeRecordUTC','social_platform','followers_cou
 today = datetime.date.today()
 
 #---twitch---#
-headers = {'Accept': 'application/vnd.twitchtv.v5+json', 'Client-ID':'i3ttibc3eyufc84okrl2swcuij4rh1'}
+headers = {'Accept': 'application/vnd.twitchtv.v5+json', 'Client-ID':client_id}
 r = requests.get("https://api.twitch.tv/kraken/channels/"+channel_id_t+"/follows",headers = headers).text
 
 json_data = json.loads(r.strip())

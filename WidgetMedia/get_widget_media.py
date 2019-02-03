@@ -3,8 +3,10 @@ import bs4 as bs
 
 #------Configurations------
 today = datetime.date.today().strftime("%d-%b-%Y")
+
 user = 'username@gmail.com'
 password = 'password'
+
 imap_url = 'imap.gmail.com'
 search_query1 = '(FROM "noreply@wigetmedia.com" SUBJECT "Daily WigetMedia Summary" SINCE "'+today+'")'
 header=['Day','Ad_Placement','Impressions','Media_Cost','Media_Cost_for_impressions']
